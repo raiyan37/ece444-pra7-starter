@@ -15,5 +15,6 @@ def safe_divide(a, b):
     return a / b
 
 
-def broken_total():
+def broken_total(values):
+    missing_total = sum(values)
     return missing_total
