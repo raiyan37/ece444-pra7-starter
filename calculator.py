@@ -13,3 +13,7 @@ def safe_divide(a, b):
     if b is None:
         return None
     return a / b
+
+
+def broken_total():
+    return missing_total
